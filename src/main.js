@@ -4,11 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './vuex/store'
-import axios from 'axios';
+// import resource from 'vue-resource'
+import axios from 'axios'
 // import './assets/css/font-awesome.min.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$http = axios;
+// Vue.use(resource);
 
 /* eslint-disable no-new */
 new Vue({
